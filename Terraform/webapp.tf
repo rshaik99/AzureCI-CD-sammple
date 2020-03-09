@@ -11,7 +11,7 @@
         features {}
 }
 resource "azurerm_resource_group" "dev" {
-  name     = "PULTerraform"
+  name     = "PULTerraformsaumil"
   location = "West Europe"
 }
 
