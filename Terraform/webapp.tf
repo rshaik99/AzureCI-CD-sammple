@@ -11,8 +11,8 @@
         features {}
 }
 resource "azurerm_resource_group" "dev" {
-  name     = "PULTerraformsaumil"
-  location = "West Europe"
+  name     = "__appresourcegroup__"
+  location = "__appresourcelocation__"
 }
 
 resource "azurerm_app_service_plan" "dev" {
