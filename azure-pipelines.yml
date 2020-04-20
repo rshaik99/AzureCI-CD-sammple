@@ -1,4 +1,7 @@
 # ASP.NET Core (.NET Framework)
+- task: TerraformInstaller@0
+  inputs:
+    terraformVersion: '0.12.3'
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
 # Add steps that publish symbols, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
